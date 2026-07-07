@@ -110,3 +110,12 @@ environment variables above.
 ### Single-instance note
 SQLite does not support concurrent writes across multiple instances.
 Keep the App Service scaled to **one instance** (the default).
+
+---
+
+## Doc Folder Rules
+
+The `doc/` folder is managed by a two-AI workflow. Follow these rules exactly:
+
+- `doc/memory.md` — **Append your notes here freely.** Add entries for decisions made, bugs found, approaches tried, or anything worth remembering. Always commit and push after appending.
+- `doc/project.md` — **DO NOT edit.** This file is owned and maintained by Amos (Karl's Cowork AI). It will be overwritten during sync.
